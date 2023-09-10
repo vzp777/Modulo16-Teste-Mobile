@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@wdio/appium-service": "^8.15.0",
-    "typedoc": "^0.24.8",
+    "typedoc": "^0.25.1",
     "wdio-video-reporter": "^3.5.0"
   }
 }
