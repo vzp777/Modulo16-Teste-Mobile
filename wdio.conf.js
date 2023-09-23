@@ -11,9 +11,8 @@ exports.config = {
     "appium:platformVersion": "9.0",
     "appium:deviceName": "Ebac-Qe",
     "appium:automationName": "UiAutomator2",
-    "appium:appPackage": "com.wdiodemoapp",
-    "appium:appActivity": ".SplashActivity",
-    "appium:appWaitActivity": ".MainActivity",
-    "appium:app": path.join(process.cwd(), "/app/android/Android-NativeDemoApp-0.4.0.apk")
+    "appium:app": path.join(process.cwd(), "/app/android/Loja-ebac.apk"),
+   "appium:appWaitActivity": "com.woocommerce.android.ui.login.LoginActivity"
+   
   }]
 };

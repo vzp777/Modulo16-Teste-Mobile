@@ -4,7 +4,7 @@ describe('Access Admin Panel', () => {
     console.log('abriu')
 
 
-    }, 50000)
+    }, 10000)
    
   });
 });
