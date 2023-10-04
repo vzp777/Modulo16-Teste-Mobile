@@ -16,7 +16,9 @@
     "test": "wdio run ./wdio.conf.js"
   },
   "dependencies": {
+    "@wdio/allure-reporter": "^8.16.17",
     "@wdio/appium-service": "^8.15.0",
+    "allure-commandline": "^2.24.0",
     "typedoc": "^0.25.1",
     "wdio-video-reporter": "^3.5.0"
   }

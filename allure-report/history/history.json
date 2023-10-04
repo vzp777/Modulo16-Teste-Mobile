@@ -1,0 +1,1 @@
+{"4dcfa4399939203bde6bac59d61355cd":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"debbcb215809a53c","status":"broken","statusDetails":"Can't call click on element with selector \"id:login_site_creds\" because element wasn't found","time":{"start":1696430919863,"stop":1696430929303,"duration":9440}}]}}
