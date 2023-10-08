@@ -9,13 +9,13 @@ pipeline {
         }
         stage('Instalar dependências') {
             steps {
-                sh "npm install"
+             sh 'npm install'
             }
         }
         stage('Executar Testes') {
             steps {
-                sh "npm test && wdio run ./wdio.conf.js"
+                 sh'npm wdio run ./wdio.conf.js'
             }
         }
     }
-}}
+}
