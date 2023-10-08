@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Teste Mobile Modulo 17') {
+            steps {
+                git branch: 'main', credentialsId: 'ecc73bc6-28f0-41ea-8502-6af2bffab984', url: 'https://github.com/vzp777/Modulo16-Teste-Mobile'
+            }
+        }
+        stage('Instalar dependências') {
+            steps {
+                sh "npm install"
+            }
+        }
+        stage('Executar Testes') {
+            steps {
+                sh "npm test && wdio run ./wdio.conf.js"
+            }
+        }
+    }
+}}

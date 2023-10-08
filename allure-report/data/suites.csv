@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Oct 04 11:48:39 BRT 2023","Wed Oct 04 11:48:49 BRT 2023","9440","","Acessar painel admin","","","","Deve fazer login com sucesso",""
+"broken","Sun Oct 08 13:32:06 BRT 2023","Sun Oct 08 13:32:16 BRT 2023","9758","","Acessar painel admin","","","","Deve fazer login com sucesso",""
